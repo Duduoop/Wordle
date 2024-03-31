@@ -45,7 +45,7 @@ function intialize() {
             col -=1;
         }
         let currTile = document.getElementById(row.toString() + '-' + col.toString());
-        currTile.innerText = "";
+        currTile.innerText = "backspace";
     }
     
     else if (e.code == "Enter") {
